@@ -4,7 +4,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: chartreuse;
-    background-image: url('images/pattern.png');
+    
 }
 
 #mainheader {
@@ -21,7 +21,15 @@ nav {
 
 }
 
-#leftmenu {
+#dog {
 
-
+    display: flex;
+    flex-direction: column;
+    outline: rgb(241, 15, 15);
+    outline-style: solid;
+    outline-width: 5px;
+    float: left;
+    padding-left: 50px;
 }
+
+
