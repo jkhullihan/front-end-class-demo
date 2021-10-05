@@ -23,13 +23,65 @@ nav {
 
 #dog {
 
-    display: flex;
+    display: block;
     flex-direction: column;
-    outline: rgb(241, 15, 15);
-    outline-style: solid;
-    outline-width: 5px;
+    outline: none;
+   
     float: left;
+    border: 5px;
     padding-left: 50px;
+    border-radius: 300px;
 }
 
+#hello {
+   
 
+
+}
+
+footer {
+
+    display: block;
+    position: absolute;
+    bottom: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+
+#maincontent {
+    
+    display: flex;
+    padding: 2em;
+}
+
+#p1 {
+
+    background-color: seagreen;
+    outline: plum;
+    outline-style: dashed;
+}
+
+#sidebar {
+    
+    background-color: rebeccapurple;
+    outline: salmon;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: space-between;
+
+    border: solid 1px rgb(139, 91, 46);
+
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-around;
+    border: dotted 1px red;
+
+
+}
